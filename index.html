@@ -1,0 +1,56 @@
+<!doctype html >
+
+	<html lang="eng">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+		<title>A Portfolio Website</title>
+		  <meta name="description" content="A simple portfolio website for skills and experiences.">
+ 
+
+  <meta property="og:title" content="A Portfolio Website">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="file:///Users/eamondi/Desktop/portfolio%20website/index.html">
+  <meta property="og:description" content="A simple portfolio website for skills and experiences.">
+  <meta property="og:image" content="image.png">
+
+  <link rel="icon" href="/favicon.ico">
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+
+  <link rel="stylesheet" href="css/styles.css?v=1.0">
+
+	</head>
+<body>
+  <h1>My Website</h1>
+  <nav>
+  <ul>
+  <li><a href="index.html">Home</a></li>
+  </ul>
+  <main>
+  <h2>Images</h2>
+  <img src="butterfly.jpg" alt="bright butterfly" width="300" height="200"><br>
+  <img src="space.jpg" alt="space" width="300" height="200"> <br>
+  <img src="happy.jpg" alt="happy girl" width="300" height="200"><br>
+
+<p>Ways to Improve your skills</p>
+  <iframe width="250" height="125" src="https://www.youtube.com/embed/-OAa9k0zCDg" frameborder="2" allowfullscreen></iframe>
+</main>
+
+<canvas id="myCanvas" width="200" height="100" style="border:1px solid #d3d3d3;">
+Your browser does not support the HTML canvas tag.</canvas>
+
+<script>
+var c = document.getElementById("myCanvas");
+var ctx = c.getContext("2d");
+ctx.beginPath();
+ctx.arc(95,50,40,0,2*Math.PI);
+ctx.stroke();
+</script>  
+  <script src="js/scripts.js"></script>
+  <footer>
+  	<p>©Copyright 2023. All right reserved</p>
+  </footer>
+</body>
+</html>
