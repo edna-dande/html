@@ -1,0 +1,50 @@
+<style>
+	h1{
+  /*CSS Selector*/
+  color: blue;
+}
+
+nav ul{
+  /*CSS selector with nesting*/
+  list-style: none;
+  padding: 0;
+}
+
+nav ul li a {
+  /*CSS selector with nesting*/
+  text-decoration: none;
+  color: black;
+}
+
+main h2{
+  /*CSS selector with nesting*/
+  font-size: 24px;
+  color: red;
+}
+
+main img{
+  /*CSS selector*/
+  display: block;
+  margin-bottom: 10px;
+}
+
+p{
+  /*CSS selector*/
+  font-weight: bold;
+}
+
+iframe{
+  /*CSS selector*/
+  border: 2px solid black;
+}
+
+canvas{
+  /*CSS selector*/
+  border: 1px solid #d3d3d3;
+}
+footer p{
+  /*CSS selector with nesting*/
+  font-size: 12px;
+  color:  gray;
+}
+</style>
